@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "лаб№12.2 Hash", "лаб№12.2 Hash\лаб№12.2 Hash.csproj", "{E8EA9D62-DF46-48BE-B871-E32CA38150A2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestHash", "TestHash\TestHash.csproj", "{CD4A8965-C4ED-44E0-9E37-3D76B76807A6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E8EA9D62-DF46-48BE-B871-E32CA38150A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8EA9D62-DF46-48BE-B871-E32CA38150A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8EA9D62-DF46-48BE-B871-E32CA38150A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8EA9D62-DF46-48BE-B871-E32CA38150A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD4A8965-C4ED-44E0-9E37-3D76B76807A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD4A8965-C4ED-44E0-9E37-3D76B76807A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD4A8965-C4ED-44E0-9E37-3D76B76807A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD4A8965-C4ED-44E0-9E37-3D76B76807A6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {49F72A7C-1677-494A-9CBA-3A0C3FCFF89B}
+	EndGlobalSection
+EndGlobal

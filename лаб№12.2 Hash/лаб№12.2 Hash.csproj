@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>лаб_12._2_Hash</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="GeometrucShapeCarLibrary">
+      <HintPath>..\..\Лаб №10\GeometrucShapeCarLibrary\GeometrucShapeCarLibrary\bin\Debug\net7.0\GeometrucShapeCarLibrary.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
