@@ -102,7 +102,7 @@ namespace лаб_12._2_Hash
                             }
                             // Высчитываем, опираясь на коэффициент заполняемости(72%), размерность хэш-ьаблицы для count элементов
                             int size = (int)Math.Ceiling(count / 0.72);
-                            table = new MyHashTable<Shape>(size); // выделяем память для хэш-таблицы посчитанной размерности 
+                            table = new MyHashTable<Shape>(0); // выделяем память для хэш-таблицы посчитанной размерности 
                             // Заполняем хэш-таблицу элементами
                             Shape added = new Shape();
                             for (int i = 0; i < count; i++)
