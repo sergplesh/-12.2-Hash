@@ -123,6 +123,7 @@ namespace лаб_12._2_Hash
         /// <param name="item">добавляемый элемент</param>
         public bool AddItem(T item)
         {
+            if (Contains(item)) return false; // если такой элемент уже есть в хэш-таблице, то не добавляем
             if (((double)(Count + 1) / Capacity) > fillRatio) // превысили коэффициент заполненности
             {
                 // увеличиваем таблицу в 2 раза и переписываем всю информацию
@@ -135,8 +136,8 @@ namespace лаб_12._2_Hash
                 for (int i = 0; i < temp.Length; i++)
                     AddData(temp[i]);
             }
-            //добавляем новый элемент, но при условии, что такого элемента ещё нет в хэш-таблице, и это не null
-            if (item != null && !Contains(item))
+            //добавляем новый элемент, но при условии, что это не null
+            if (item != null)
             {
                 AddData(item);
                 return true; // добавление произошло

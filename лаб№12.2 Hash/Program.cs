@@ -110,7 +110,7 @@ namespace лаб_12._2_Hash
                                 Console.WriteLine($"Ввод {i + 1} фигуры");
                                 // вводим фигуру для добавления
                                 added = InitShape();
-                                table.AddItem((Shape)added.Clone()); // добавляем в хэш-таблицу
+                                table.AddItem(added); // добавляем в хэш-таблицу
                             }
                             // Вывод результата
                             Console.WriteLine("Сформированная вами хэш-таблица:");
@@ -128,28 +128,28 @@ namespace лаб_12._2_Hash
                             {
                                 Shape s = new Shape();
                                 s.RandomInit();
-                                table.AddItem((Shape)s.Clone()); // добавляем в хэш-таблицу
+                                table.AddItem(s); // добавляем в хэш-таблицу
                             }
                             // окружности
                             for (int i = 5; i < 10; i++)
                             {
                                 Circle c = new Circle();
                                 c.RandomInit();
-                                table.AddItem((Circle)c.Clone()); // добавляем в хэш-таблицу
+                                table.AddItem(c); // добавляем в хэш-таблицу
                             }
                             // прямоугольники
                             for (int i = 10; i < 15; i++)
                             {
                                 Rectangle r = new Rectangle();
                                 r.RandomInit();
-                                table.AddItem((Rectangle)r.Clone()); // добавляем в хэш-таблицу
+                                table.AddItem(r); // добавляем в хэш-таблицу
                             }
                             // параллелепипеды
                             for (int i = 15; i < 20; i++)
                             {
                                 Parallelepiped p = new Parallelepiped();
                                 p.RandomInit();
-                                table.AddItem((Parallelepiped)p.Clone()); // добавляем в хэш-таблицу
+                                table.AddItem(p); // добавляем в хэш-таблицу
                             }
                             Console.WriteLine("Сформированная вами хэш-таблица:");
                             table.Print();
